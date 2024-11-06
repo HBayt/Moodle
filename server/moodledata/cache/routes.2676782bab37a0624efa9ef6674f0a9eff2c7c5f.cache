@@ -1,0 +1,76 @@
+<?php return array (
+  0 => 
+  array (
+    'GET' => 
+    array (
+      '/r.php/api/rest/v2/openapi.json' => 'route4',
+    ),
+  ),
+  1 => 
+  array (
+    'GET' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/r\\.php/api/rest/v2/core/templates/([^/]+)/([^/]+)/([^/]+)|/r\\.php/api/rest/v2/user/([^/]+)/preferences()()()|/r\\.php/api/rest/v2/user/([^/]+)/preferences/([^/]+)()()())$~',
+        'routeMap' => 
+        array (
+          4 => 
+          array (
+            0 => 'route0',
+            1 => 
+            array (
+              'themename' => 'themename',
+              'component' => 'component',
+              'identifier' => 'identifier',
+            ),
+          ),
+          5 => 
+          array (
+            0 => 'route1',
+            1 => 
+            array (
+              'user' => 'user',
+            ),
+          ),
+          6 => 
+          array (
+            0 => 'route1',
+            1 => 
+            array (
+              'user' => 'user',
+              'preference' => 'preference',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'POST' => 
+    array (
+      0 => 
+      array (
+        'regex' => '~^(?|/r\\.php/api/rest/v2/user/([^/]+)/preferences|/r\\.php/api/rest/v2/user/([^/]+)/preferences/([^/]+))$~',
+        'routeMap' => 
+        array (
+          2 => 
+          array (
+            0 => 'route2',
+            1 => 
+            array (
+              'user' => 'user',
+            ),
+          ),
+          3 => 
+          array (
+            0 => 'route3',
+            1 => 
+            array (
+              'user' => 'user',
+              'preference' => 'preference',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);
