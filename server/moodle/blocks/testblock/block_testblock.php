@@ -29,13 +29,48 @@ class block_testblock extends block_base {
     }
 
     function get_content() {
+        global $DB; 
 
         if ($this->content !== NULL) {
             return $this->content;
         }
 
+        $content= ''; 
+        /* 
+
+
+        // USERS LIST 
+        $users = $DB->get_records(table:'user'); 
+        foreach($users as $user){ 
+            $content .= $user->firstname.' '.$user->lastname.'<br> '; 
+        }
+
+
+        // COURSES LIST 
+        $courses = $DB->get_records(table:'course'); 
+        foreach($courses as $course){ 
+            $content .= $course->fullname.'<br>'; 
+        }
+        // $content .= '<br>'; 
+       
+
+
+        */ 
+
+
+        // ROLES LIST 
+        $roles = $DB->get_records(table:'role'); 
+        foreach($roles as $role){ 
+            $content .= $role->shortname.'<br> '; 
+        }
+
+
+
         $this->content = new stdClass;
-        $this->content->text = 'This is the text.'; 
+
+        // $this->content->text = 'This is the text.'; 
+        $this->content->text = $content; 
+
         $this->content->footer = 'This is the footer.'; 
        
         return $this->content;

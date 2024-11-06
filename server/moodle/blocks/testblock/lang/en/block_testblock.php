@@ -27,9 +27,6 @@ $string['pluginname'] = 'Block for student grade plugin';
 $string['pluginname'] = 'Student notes plugin';
 $string['pluginname:addinstance'] = 'Add a new pluginnote block';
 $string['pluginname:myaddinstance'] = 'Add a new PLUGINNOTES block to the My Moodle page'; 
-
-
-
 $string['configtitle'] = 'Text block title';
 $string['block_testblock:addinstance'] = 'Add a new test block';
 $string['block_testblock:myaddinstance'] = 'Add a new test block to Dashboard';

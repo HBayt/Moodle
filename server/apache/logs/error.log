@@ -77,3 +77,29 @@ sl:warn] [pid 14452:tid 460] AH01909: www.example.com:443:0 server certificate d
 [Wed Nov 06 10:09:11.058538 2024] [mpm_winnt:notice] [pid 20524:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Wed Nov 06 10:09:13.090178 2024] [mpm_winnt:notice] [pid 14452:tid 460] AH00364: Child: All worker threads have exited.
 [Wed Nov 06 10:09:13.154380 2024] [mpm_winnt:notice] [pid 20524:tid 428] AH00430: Parent: Child process 14452 exited successfully.
+[Wed Nov 06 10:50:11.245999 2024] [ssl:warn] [pid 9376:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 10:50:11.276280 2024] [ssl:warn] [pid 9376:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 10:50:11.706972 2024] [mpm_winnt:notice] [pid 9376:tid 428] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed Nov 06 10:50:11.706972 2024] [mpm_winnt:notice] [pid 9376:tid 428] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed Nov 06 10:50:11.706972 2024] [core:notice] [pid 9376:tid 428] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Moodle/server/apache -f conf\\httpd.conf'
+[Wed Nov 06 10:50:11.706972 2024] [mpm_winnt:notice] [pid 9376:tid 428] AH00418: Parent: Created child process 8880
+[Wed Nov 06 10:50:12.039970 2024] [ssl:warn] [pid 8880:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 10:50:12.058125 2024] [ssl:warn] [pid 8880:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 10:50:12.090008 2024] [mpm_winnt:notice] [pid 8880:tid 452] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 06 11:02:33.960885 2024] [php:warn] [pid 8880:tid 1900] [client ::1:50308] PHP Warning:  Undefined variable $userstring in C:\\Moodle\\server\\moodle\\blocks\\testblock\\block_testblock.php on line 42
+[Wed Nov 06 11:27:22.428467 2024] [php:warn] [pid 8880:tid 1804] [client ::1:50714] PHP Warning:  Undefined variable $userstring in C:\\Moodle\\server\\moodle\\blocks\\testblock\\block_testblock.php on line 42, referer: http://localhost/admin/index.php?cache=1
+[Wed Nov 06 11:52:27.207752 2024] [mpm_winnt:notice] [pid 9376:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 06 11:52:29.229243 2024] [mpm_winnt:notice] [pid 8880:tid 452] AH00364: Child: All worker threads have exited.
+[Wed Nov 06 11:52:29.259289 2024] [mpm_winnt:notice] [pid 9376:tid 428] AH00430: Parent: Child process 8880 exited successfully.
+[Wed Nov 06 11:52:55.200105 2024] [ssl:warn] [pid 15372:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 11:52:55.231351 2024] [ssl:warn] [pid 15372:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 11:52:55.262622 2024] [mpm_winnt:notice] [pid 15372:tid 440] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed Nov 06 11:52:55.262622 2024] [mpm_winnt:notice] [pid 15372:tid 440] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed Nov 06 11:52:55.262622 2024] [core:notice] [pid 15372:tid 440] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Moodle/server/apache -f conf\\httpd.conf'
+[Wed Nov 06 11:52:55.262622 2024] [mpm_winnt:notice] [pid 15372:tid 440] AH00418: Parent: Created child process 3588
+[Wed Nov 06 11:52:55.561942 2024] [ssl:warn] [pid 3588:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 11:52:55.593187 2024] [ssl:warn] [pid 3588:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 06 11:52:55.624459 2024] [mpm_winnt:notice] [pid 3588:tid 436] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 06 11:58:22.007049 2024] [mpm_winnt:notice] [pid 15372:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 06 11:58:24.031294 2024] [mpm_winnt:notice] [pid 3588:tid 436] AH00364: Child: All worker threads have exited.
+[Wed Nov 06 11:58:24.065770 2024] [mpm_winnt:notice] [pid 15372:tid 440] AH00430: Parent: Child process 3588 exited successfully.
