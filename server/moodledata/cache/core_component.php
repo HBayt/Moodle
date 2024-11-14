@@ -321,6 +321,7 @@ $cache = array (
       'site_main_menu' => 'C:\\Moodle\\server\\moodle/blocks/site_main_menu',
       'social_activities' => 'C:\\Moodle\\server\\moodle/blocks/social_activities',
       'starredcourses' => 'C:\\Moodle\\server\\moodle/blocks/starredcourses',
+      'studentnotes' => 'C:\\Moodle\\server\\moodle/blocks/studentnotes',
       'tag_flickr' => 'C:\\Moodle\\server\\moodle/blocks/tag_flickr',
       'tag_youtube' => 'C:\\Moodle\\server\\moodle/blocks/tag_youtube',
       'tags' => 'C:\\Moodle\\server\\moodle/blocks/tags',
@@ -7524,7 +7525,9 @@ $cache = array (
         'rss_client' => 'C:\\Moodle\\server\\moodle/blocks/rss_client/settings.php',
         'section_links' => 'C:\\Moodle\\server\\moodle/blocks/section_links/settings.php',
         'starredcourses' => 'C:\\Moodle\\server\\moodle/blocks/starredcourses/settings.php',
+        'studentnotes' => 'C:\\Moodle\\server\\moodle/blocks/studentnotes/settings.php',
         'tag_youtube' => 'C:\\Moodle\\server\\moodle/blocks/tag_youtube/settings.php',
+        'testblock' => 'C:\\Moodle\\server\\moodle/blocks/testblock/settings.php',
       ),
       'media' => 
       array (

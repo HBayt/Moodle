@@ -23,12 +23,18 @@
  */
 //  @copyright Year, You Name <your@email.address>
 
-$string['pluginname'] = 'Block for student grade plugin';
-$string['pluginname'] = 'Student notes plugin';
-$string['pluginname:addinstance'] = 'Add a new pluginnote block';
-$string['pluginname:myaddinstance'] = 'Add a new PLUGINNOTES block to the My Moodle page'; 
-$string['configtitle'] = 'Text block title';
 $string['block_testblock:addinstance'] = 'Add a new test block';
 $string['block_testblock:myaddinstance'] = 'Add a new test block to Dashboard';
 $string['block_testblock'] = '(new test block)';
 $string['pluginname'] = 'Test block';
+$string['shownotes'] = 'Show Notes';
+$string['shownotessdescription'] = 'Show student notes instead of enrolled courses of the student';
+
+/* 
+
+$string['pluginname:addinstance'] = 'Add a new pluginnote block';
+$string['pluginname:myaddinstance'] = 'Add a new PLUGINNOTES block to the My Moodle page'; 
+$string['configtitle'] = 'Text block title';
+
+
+*/ 
